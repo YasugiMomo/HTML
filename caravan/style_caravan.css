@@ -222,9 +222,61 @@ footer{
   color: #fff;
 }
 
-@media screen and (max-width: 425px) {
-  セレクタ {      /* 例です */
-    color: xxxx;  /* 例です */
-    width: xxpx;  /* 例です */
+/* スマートフォンサイズ（425px）に対応 */
+@media screen and (max-width: 425px){
+  header{
+    width: 100%;
   }
+
+  .nav-list{
+    width: 100%;
+  }
+   
+  .nav-list-item{
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  
+  .social{
+    display: none;
+  }
+  main{
+    width: 100%;
+    display: block;
+  }
+  .main-visual-content{
+    width: 100%;
+  }
+  .blog{
+    width: 100%;
+  }
+  .blog-image{
+    width: 190px;
+    height: 180px;
+  }
+  .category{
+    display: none;
+  }
+  .sidebar{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .popular-text,.categories-text,.blog-item{
+    padding-left: 10px;
+  }
+  .popular-text:last-child,
+.categories-text:last-child{
+  margin: 0;
+  padding-left: 10px;
+  border: none;
+  }
+  .instagram-box{
+    width: 190px;
+    height: 180px;
+    margin: 0 auto;
+  }
+  .instagram-box:nth-child(-n+4){
+    margin-bottom: 20px;
+  }
+
 }
