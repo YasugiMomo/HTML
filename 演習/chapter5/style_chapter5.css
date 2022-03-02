@@ -1,0 +1,124 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-top{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  /* background-color: green; */
+}
+
+.header-list{
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* padding-right: 20px; */
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #6c6b6b;
+  /* background-color: red; */
+  text-align: center;
+  /* margin-bottom: 50px; */
+}
+
+.list-item{
+  display: inline-block;
+  margin-right: 20px;
+  /* background-color: yellow; */
+}
+
+.main{
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.box3{
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.box4{
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+
+.box5{
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.box6{
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.box7{
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.box8{
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+
+.box9{
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.box10{
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.box11{
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.box12{
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer{
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  line-height: 120px;
+  background-color: #6c6b6b;
+  color: #ffff;
+  /* margin-top: 50px; */
+}
